@@ -4,11 +4,11 @@ size(600,600);
 }
 void draw(){
 fill(255,183,194);
-ellipse(225,350,50,200);
-ellipse(275,350,50,200);
-ellipse(410,350,50,200);
-ellipse(470,350,50,200);
-ellipse(350,300,300,200);
+ellipse(225,350,50,200); // leg
+ellipse(275,350,50,200); // leg
+ellipse(410,350,50,200); // leg
+ellipse(470,350,50,200); // leg
+ellipse(350,300,300,200); // body
 ellipse(125,125,70,70); // left ear
 ellipse(275,125,70,70); // right ear
 fill(0,0,0); // black part of ear
@@ -25,12 +25,12 @@ ellipse(225,240,20,20); // Right nostril
 ellipse(170,180,20,30); // Left eye
 ellipse(230,180,20,30); // Right eye
 fill(255,255,255);
-ellipse(172,175,10,10);
-ellipse(232,175,10,10);
+ellipse(172,175,10,10); // white part of eye
+ellipse(232,175,10,10); // white part of eye
 fill(133,87,35);
-rect(0,500,600,100);
+rect(0,500,600,100); // ground
 fill(102,141,60);
-rect(0,450,600,50);
+rect(0,450,600,50); // grass
 
 
 }
